@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+        background: url('../img/fondo.jpg');
+}
+h1,h2{
+    text-align: center;
+
+}
+
+header{
+    
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 0.3;
+    justify-content: flex-start;
+    
+    
+}
+.titulo{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.pestañas{
+    padding-top: 5%;
+    padding-right: 10%;
+    color: white;
+    float: right;
+}
+.button {
+    background: #403F3F ;
+    color:yellow;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: black;
+    
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: whitesmoke;
+}
+
+.modal-container{
+    display:flex;
+    background-color: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vh;
+}
+.modal{
+    background-color: white;
+    width: 600px;
+    max-width: 100px;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+span{
+    padding-right: 10px;
+}
+
+
+nav{
+
+    padding-left: 10px;
+    margin: 5px;
+    display:flex;
+    justify-content: space-between;
+}
+.btn{
+    border-color: black ;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+article{
+    padding-left: 10px;
+}
+
+.item{
+    height: auto;
+    width: auto;
+    max-height: 600px;
+    max-width: 800px;
+    
+    
+}
+.card{
+    padding: top 40px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+footer{
+    background-color:transparent;
+    color: white;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.box_1 img{
+    width: 250px;
+    padding-top: 50px;
+}
+
+h5{
+    margin-bottom: 20px;
+}
+p {
+    font-size: small;
+    color: #efefef;
+}
+
+.box_3 a{
+    display:inline-block ;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #efefef;
+    margin-right: 10px;
+    background-color: #403F3F;
+    text-align: center;
+
+}
